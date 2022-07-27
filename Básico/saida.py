@@ -13,6 +13,7 @@ print ('Luiz', 'Otávio', 'Outra coisa', sep ='-')
 
 #O separador se torna o traço
 
+
 #Acabando com a quebra de linha do print
 
 print('Mostrando a quebra de linha indo embora', end='')
@@ -20,12 +21,28 @@ print('Teste na mesma linha')
 
 #O segundo print vai ficar na mesma linha do primeiro e posso escolher o que vai substituir a quebra de linha
 
+
 #Brincando com sep e end
 
 print('824', '176', '070', sep='.', end='-')
 print('18')
 
 #Vai sair tudo na mesma linha com pontos e traços no lugar da quebra de linha
+
+
+#Manipulando as aspas no print
+
+print("Essa é uma 'string' (str)")
+
+#Usei aspas duplas pra abrir a string e coloquei uma aspa simples na string.
+
+
+#Uso de string raw no print
+
+print("Aqui coloco \n uma quebra de linha")
+print(r"Aqui eu evito a quebra de linha \n com o raw")
+
+
 
 
 
