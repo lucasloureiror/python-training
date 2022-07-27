@@ -29,21 +29,3 @@ print('18')
 
 #Vai sair tudo na mesma linha com pontos e traços no lugar da quebra de linha
 
-
-#Manipulando as aspas no print
-
-print("Essa é uma 'string' (str)")
-
-#Usei aspas duplas pra abrir a string e coloquei uma aspa simples na string.
-
-
-#Uso de string raw no print
-
-print("Aqui coloco \n uma quebra de linha")
-print(r"Aqui eu evito a quebra de linha \n com o raw")
-
-
-
-
-
-
