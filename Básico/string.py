@@ -68,3 +68,19 @@ print(usuario.__len__())
 numero = 123456
 
 print(len(str(numero)))
+
+
+"""
+
+Índice de Strings: Ideia que toda string é um vetor.
+Fatiamento: Pegar partes de uma string da seguinte forma nome[2:5]
+Funções built-in
+
+"""
+
+indice = "Lucas Loureiro Rodrigues"
+
+#Imprimir o caracter na terceira posição da string
+print(indice[3])
+
+#Índice -1 pega o último caracter.
