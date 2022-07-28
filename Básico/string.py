@@ -26,6 +26,9 @@ print(r"Aqui eu evito a quebra de linha \n com o raw")
 print("Com a \"barra invertida\" eu consigo fugir do parâmetro")
 
 
+
+
+
 """
 Fstring é uma forma de formatar uma string em um print.
 
@@ -46,3 +49,22 @@ print('{} tem {} anos de idade'.format(nome, idade))
 
 
 
+
+"""
+
+Função len, que determina o número de caracteres em tipos de dados.
+
+"""
+
+usuario = "Lucas"
+
+quantidade_de_caracteres = len(usuario)
+
+print(quantidade_de_caracteres)
+print(usuario.__len__())
+
+
+#Possível converter tipos numéricos para String e assim conseguir determinar a quantidade
+numero = 123456
+
+print(len(str(numero)))
