@@ -1,6 +1,9 @@
 #String é qualquer coisa dentro de aspas, simples, duplas ou triplas.
 #string = str.
 
+from ast import While
+
+
 print('String com aspas simples')
 
 print("String com aspas duplas")
@@ -84,3 +87,20 @@ indice = "Lucas Loureiro Rodrigues"
 print(indice[3])
 
 #Índice -1 pega o último caracter.
+
+
+""""
+
+ITERAÇÃO DE STRING COM WHILE
+
+"""
+frase = 'o rato roeu a roupa do rei de roma'
+
+tamanho_frase = len(frase)
+
+contador = 0
+
+while contador < tamanho_frase:
+    print(frase[contador])
+    contador += 1
+
