@@ -10,6 +10,7 @@ float - real/ponto flutuante - números com pontos
 
 bool - booleano/lógico - True/false
 
+Imutabilidade: str, int, float e bool são imutáveis, portanto não é possível editar o seu valor, apenas novo valor.
 
 """
 
