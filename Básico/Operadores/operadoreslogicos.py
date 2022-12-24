@@ -12,7 +12,7 @@ Not: Serve para negar uma condição.
 
 In: Pra verificar se algo está presente em outra coisa
 
-Not in:
+Not in: Não está presente.
 
 """
 
