@@ -23,6 +23,8 @@ Split: Divide strings em uma lista de strings separadas por espaço. string.spli
 
 Enumerate: Enumera elementos de objetos iteráveis por meio do desempacotamento de uma lista.
 
+Concatenar listas: É utilizar o operação de soma entre listas
+
 Desempacotamento de lista: Técnica utilizada para pegar alguns elementos de uma lista e colocar o restante em outra lista
 """
 
