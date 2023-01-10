@@ -12,5 +12,14 @@ tupla = ("Lucas", "Lucas2")
 
 #Tentativa de mudar um valor de uma tupla
 
-nomes[0] = "Teste" #Não vai rodar alegando que tuple não suporta reassignment.
+#nomes[0] = "Teste" 
+# #Não vai rodar alegando que tuple não suporta reassignment.
+
+#Transformando uma lista em uma tupla
+
+lista = ["Teste"]
+
+tupla2 = tuple(lista)
+
+print (tupla2)
 
