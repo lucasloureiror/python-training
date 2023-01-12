@@ -1,4 +1,4 @@
-import shelve, pyperclip, sys, pprint
+import shelve, pyperclip, sys
 
 tag = sys.argv
 
