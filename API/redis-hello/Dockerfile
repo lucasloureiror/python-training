@@ -8,5 +8,5 @@ COPY App.py .
 
 EXPOSE 80
 
-CMD uvicorn App:app --reload
+CMD uvicorn App:app --reload --host 0.0.0.0 --port 80
 

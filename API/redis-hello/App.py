@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 
 app = FastAPI()
-host = redis.Redis(host="localhost", port=6379)
+host = redis.Redis(host="172.26.80.1", port=6379)
 
 if host.exists("counter") == False:
     host.set("counter", 0)
@@ -12,6 +12,7 @@ if host.exists("counter") == False:
 async def root():
     contador = host.get("counter")
     host.incr("counter")
+    
     return """
        <html>
         <head>
